@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iStore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,300&family=Cormorant+Garamond:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- TOP BAR -->
+    <div class="topbar">
+        <div class="container topbar__inner">
+            <div class="topbar__left">
+                <a href="#">Education</a>
+                <a href="#">Business</a>
+                <a href="#">Support</a>
+                <a href="#">Find a Store</a>
+            </div>
+            <div class="topbar__right">
+                <a href="#" class="topbar__link"><i class="fa-regular fa-heart"></i> Wishlist</a>
+                <a href="#" class="topbar__link"><i class="fa-solid fa-box"></i> Orders</a>
+                <span class="topbar__divider"></span>
+                <div class="topbar__socials">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="container navbar__inner">
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+            <label for="nav-toggle" class="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </label>
+
+            <a href="#" class="logo">
+                <div class="logo__icon"><i class="fa-brands fa-apple"></i></div>
+                <span class="logo__text">iStore</span>
+            </a>
+
+            <ul class="nav__menu">
+                <li>
+                    <a href="#">
+                        <span class="nb nb-t"></span><span class="nb nb-r"></span>
+                        <span class="nb nb-b"></span><span class="nb nb-l"></span>
+                        Store
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="nb nb-t"></span><span class="nb nb-r"></span>
+                        <span class="nb nb-b"></span><span class="nb nb-l"></span>
+                        Mac
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="nb nb-t"></span><span class="nb nb-r"></span>
+                        <span class="nb nb-b"></span><span class="nb nb-l"></span>
+                        iPad
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="nb nb-t"></span><span class="nb nb-r"></span>
+                        <span class="nb nb-b"></span><span class="nb nb-l"></span>
+                        iPhone
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="nb nb-t"></span><span class="nb nb-r"></span>
+                        <span class="nb nb-b"></span><span class="nb nb-l"></span>
+                        Watch
+                    </a>
+                </li>
+                <li class="has-dropdown">
+                    <a href="#">
+                        <span class="nb nb-t"></span><span class="nb nb-r"></span>
+                        <span class="nb nb-b"></span><span class="nb nb-l"></span>
+                        Accessories <i class="fa-solid fa-chevron-down fa-xs"></i>
+                    </a>
+                    <div class="dropdown">
+                        <div class="dropdown__col">
+                            <span class="dropdown__heading">Charging</span>
+                            <a href="#"><i class="fa-solid fa-bolt"></i> MagSafe</a>
+                            <a href="#"><i class="fa-solid fa-plug"></i> USB-C Cables</a>
+                            <a href="#"><i class="fa-solid fa-battery-full"></i> Power Banks</a>
+                        </div>
+                        <div class="dropdown__col">
+                            <span class="dropdown__heading">Gear</span>
+                            <a href="#"><i class="fa-solid fa-location-dot"></i> AirTags</a>
+                            <a href="#"><i class="fa-solid fa-mobile-screen"></i> Cases</a>
+                            <a href="#"><i class="fa-solid fa-headphones"></i> Audio</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="nb nb-t"></span><span class="nb nb-r"></span>
+                        <span class="nb nb-b"></span><span class="nb nb-l"></span>
+                        Support
+                    </a>
+                </li>
+            </ul>
+
+            <div class="nav__icons">
+                <a href="#" class="nav__icon-btn" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#" class="nav__icon-btn" aria-label="Account"><i class="fa-regular fa-user"></i></a>
+                <a href="#" class="nav__icon-btn nav__cart" aria-label="Cart">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="nav__badge">1</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PROMO BANNER -->
+    <div class="promo-banner">
+        <p>Get $200–$650 in credit when you trade in iPhone 11 or higher. <a href="#">Shop iPhone &rsaquo;</a></p>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero__content">
+            <span class="hero__tag">New 2025</span>
+            <h1 class="hero__title">iPhone 17<br><em>Pro.</em></h1>
+            <p class="hero__desc">Aerospace-grade titanium. A18 Pro chip.<br>A camera system that changes everything.
+            </p>
+            <div class="hero__cta">
+                <a href="#" class="btn btn--primary">Shop Now</a>
+                <a href="#" class="btn btn--ghost">Learn More</a>
+            </div>
+        </div>
+        <div class="hero__visual">
+            <img src="images/17pro.png" alt="iPhone 17 Pro" class="hero__img" />
+        </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="categories">
+        <div class="container">
+            <div class="categories__grid">
+
+                <div class="cat-card">
+                    <img src="images/pro4.jpeg" alt="MacBook Pro" class="cat-card__img">
+                    <div class="cat-card__overlay"></div>
+                    <div class="cat-card__body">
+                        <h3>MacBook Pro</h3>
+                        <a href="#" class="cat-card__link">Learn More <i class="fa-solid fa-arrow-right fa-xs"></i></a>
+                    </div>
+                </div>
+
+                <div class="cat-card">
+                    <img src="images/ipad_air_81133a1a7_2x.jpg" alt="iPad Air" class="cat-card__img">
+                    <div class="cat-card__overlay"></div>
+                    <div class="cat-card__body">
+                        <h3>iPad Air</h3>
+                        <a href="#" class="cat-card__link">Learn More <i class="fa-solid fa-arrow-right fa-xs"></i></a>
+                    </div>
+                </div>
+
+                <div class="cat-card">
+                    <img src="images/watch.png" alt="Apple Watch" class="cat-card__img">
+                    <div class="cat-card__overlay"></div>
+                    <div class="cat-card__body">
+                        <h3>Apple Watch</h3>
+                        <a href="#" class="cat-card__link">Learn More <i class="fa-solid fa-arrow-right fa-xs"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- TRENDING -->
+    <section class="trending">
+        <div class="container">
+            <div class="trending__header">
+                <h2>The Latest.</h2>
+                <div class="trending__tabs">
+                    <button class="tab tab--active">All</button>
+                    <button class="tab">Mac</button>
+                    <button class="tab">iPhone</button>
+                </div>
+            </div>
+            <div class="trending__grid">
+
+                <div class="trend-card">
+                    <div class="trend-card__scene">
+                        <div class="trend-card__inner">
+                            <div class="trend-card__face--front">
+                                <span class="trend-card__badge">New</span>
+                                <img src="images/iphone.jpeg" alt="iPhone 17 Pro">
+                            </div>
+                            <div class="trend-card__face--back">
+                                <img src="https://images.unsplash.com/photo-1632661674596-df8be070a5c5?q=80&w=600&auto=format&fit=crop"
+                                    alt="iPhone 17 Pro detail">
+                                <div class="trend-card__back-info">
+                                    <span class="trend-card__back-badge">New</span>
+                                    <h3>iPhone 17 Pro</h3>
+                                    <p class="trend-card__back-price">From $1,500 <s>$1,799</s></p>
+                                    <div class="trend-card__back-actions">
+                                        <button class="trend-card__buy-btn"><i class="fa-solid fa-bag-shopping"></i> Buy
+                                            Now</button>
+                                        <button><i class="fa-regular fa-heart"></i></button>
+                                        <button><i class="fa-solid fa-eye"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trend-card__info">
+                        <h3 class="trend-card__name">iPhone 17 Pro</h3>
+                        <p class="trend-card__price">From $1,500.00 <span>$1,799.00</span></p>
+                    </div>
+                </div>
+
+                <div class="trend-card">
+                    <div class="trend-card__scene">
+                        <div class="trend-card__inner">
+                            <div class="trend-card__face--front">
+                                <span class="trend-card__badge">Audio</span>
+                                <img src="images/airrr.jpg" alt="AirPods Pro 2">
+                            </div>
+                            <div class="trend-card__face--back">
+                                <img src="images/air22.png" alt="AirPods detail">
+                                <div class="trend-card__back-info">
+                                    <span class="trend-card__back-badge">Audio</span>
+                                    <h3>AirPods Pro 2</h3>
+                                    <p class="trend-card__back-price">$249.00 <s>$299.00</s></p>
+                                    <div class="trend-card__back-actions">
+                                        <button class="trend-card__buy-btn"><i class="fa-solid fa-bag-shopping"></i> Buy
+                                            Now</button>
+                                        <button><i class="fa-regular fa-heart"></i></button>
+                                        <button><i class="fa-solid fa-eye"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trend-card__info">
+                        <h3 class="trend-card__name">AirPods Pro 2</h3>
+                        <p class="trend-card__price">$249.00 <span>$299.00</span></p>
+                    </div>
+                </div>
+
+                <div class="trend-card">
+                    <div class="trend-card__scene">
+                        <div class="trend-card__inner">
+                            <div class="trend-card__face--front">
+                                <span class="trend-card__badge">Health</span>
+                                <img src="images/Watch Ultra 2.jpeg" alt="Watch Ultra 2">
+                            </div>
+                            <div class="trend-card__face--back">
+                                <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?q=80&w=600&auto=format&fit=crop"
+                                    alt="Watch detail">
+                                <div class="trend-card__back-info">
+                                    <span class="trend-card__back-badge">Health</span>
+                                    <h3>Watch Ultra 2</h3>
+                                    <p class="trend-card__back-price">$799.00 <s>$899.00</s></p>
+                                    <div class="trend-card__back-actions">
+                                        <button class="trend-card__buy-btn"><i class="fa-solid fa-bag-shopping"></i> Buy
+                                            Now</button>
+                                        <button><i class="fa-regular fa-heart"></i></button>
+                                        <button><i class="fa-solid fa-eye"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trend-card__info">
+                        <h3 class="trend-card__name">Watch Ultra 2</h3>
+                        <p class="trend-card__price">$799.00 <span>$899.00</span></p>
+                    </div>
+                </div>
+
+                <div class="trend-card">
+                    <div class="trend-card__scene">
+                        <div class="trend-card__inner">
+                            <div class="trend-card__face--front">
+                                <span class="trend-card__badge">Mac</span>
+                                <img src="images/mc.webp" alt="MacBook Air M3">
+                            </div>
+                            <div class="trend-card__face--back">
+                                <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=600&auto=format&fit=crop"
+                                    alt="MacBook detail">
+                                <div class="trend-card__back-info">
+                                    <span class="trend-card__back-badge">Mac</span>
+                                    <h3>MacBook Air M3</h3>
+                                    <p class="trend-card__back-price">$1,099 <s>$1,299</s></p>
+                                    <div class="trend-card__back-actions">
+                                        <button class="trend-card__buy-btn"><i class="fa-solid fa-bag-shopping"></i> Buy
+                                            Now</button>
+                                        <button><i class="fa-regular fa-heart"></i></button>
+                                        <button><i class="fa-solid fa-eye"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trend-card__info">
+                        <h3 class="trend-card__name">MacBook Air M3</h3>
+                        <p class="trend-card__price">$1,099.00 <span>$1,299.00</span></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIAL -->
+    <section class="testimonial">
+        <div class="container">
+            <h2 class="section-title">What Customers Say.</h2>
+            <div class="testimonial__wrapper">
+                <button class="testimonial__arrow testimonial__arrow--prev">&#8249;</button>
+                <div class="testimonial__content">
+                    <blockquote class="testimonial__quote">
+                        "The iPhone 15 Pro is an absolute beast. The titanium finish feels premium and light. iStore
+                        delivery was super fast — arrived next morning!"
+                    </blockquote>
+                    <div class="testimonial__user">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=100&auto=format&fit=crop"
+                            alt="Petey Cruiser">
+                        <div>
+                            <h5>Petey Cruiser</h5>
+                            <span>Senior Designer, Colorlib</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="testimonial__arrow testimonial__arrow--next">&#8250;</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ESSENTIALS -->
+    <section class="essentials">
+        <div class="container">
+            <div class="essentials__header">
+                <h2>Essentials.</h2>
+                <a href="#" class="essentials__see-all">See All <i class="fa-solid fa-arrow-right fa-xs"></i></a>
+            </div>
+            <div class="essentials__grid">
+
+                <div class="product-card">
+                    <div class="product-card__wrap">
+                        <img class="product-card__img--front" src="images/magsafe.jpeg" alt="MagSafe Charger">
+                        <img class="product-card__img--back" src="images/magsafe.jpg" alt="MagSafe Charger detail">
+                        <div class="product-card__actions">
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                            <button><i class="fa-regular fa-heart"></i></button>
+                            <button><i class="fa-solid fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <h4 class="product-card__name">MagSafe Charger</h4>
+                    <p class="product-card__price">$39.00</p>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card__wrap">
+                        <img class="product-card__img--front" src="images/airtag.jpeg" alt="AirTag">
+                        <img class="product-card__img--back" src="images/airtag2.jpeg" alt="AirTag detail">
+                        <div class="product-card__actions">
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                            <button><i class="fa-regular fa-heart"></i></button>
+                            <button><i class="fa-solid fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <h4 class="product-card__name">AirTag 4-Pack</h4>
+                    <p class="product-card__price">$99.00</p>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card__wrap">
+                        <img class="product-card__img--front" src="images/airbbb.jpg" alt="AirPods">
+                        <img class="product-card__img--back" src="images/airbbbb.jpg" alt="AirPods detail">
+                        <div class="product-card__actions">
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                            <button><i class="fa-regular fa-heart"></i></button>
+                            <button><i class="fa-solid fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <h4 class="product-card__name">AirPods (3rd Gen)</h4>
+                    <p class="product-card__price">$169.00</p>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card__wrap">
+                        <img class="product-card__img--front" src="images/casee.avif" alt="iPhone Case">
+                        <img class="product-card__img--back" src="images/case4.jpeg" alt="iPhone Case detail">
+                        <div class="product-card__actions">
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                            <button><i class="fa-regular fa-heart"></i></button>
+                            <button><i class="fa-solid fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <h4 class="product-card__name">FineWoven Case</h4>
+                    <p class="product-card__price">$59.00</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG -->
+    <section class="blog">
+        <div class="container">
+            <div class="blog__header">
+                <h2>News &amp; Events.</h2>
+                <a href="#" class="blog__see-all">All Articles <i class="fa-solid fa-arrow-right fa-xs"></i></a>
+            </div>
+            <div class="blog__grid">
+
+                <article class="blog-card">
+                    <div class="blog-card__img">
+                        <span class="blog-card__date"><strong>14</strong>FEB</span>
+                        <img src="images/newmac.jpeg" alt="MacBook Pro">
+                    </div>
+                    <div class="blog-card__body">
+                        <span class="blog-card__meta">News &bull; 3 min read</span>
+                        <h3>The New MacBook Pro</h3>
+                        <p>Mind-blowing performance with next-generation M3 chips inside.</p>
+                        <a href="#" class="blog-card__link">Read More <i class="fa-solid fa-arrow-right fa-xs"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-card__img">
+                        <span class="blog-card__date"><strong>10</strong>FEB</span>
+                        <img src="images/appl-ios-26.avif" alt="iOS 17">
+                    </div>
+                    <div class="blog-card__body">
+                        <span class="blog-card__meta">Tips &bull; 5 min read</span>
+                        <h3>Mastering iOS 26</h3>
+                        <p>Unlock hidden features and power-user shortcuts on your iPhone.</p>
+                        <a href="#" class="blog-card__link">Read More <i class="fa-solid fa-arrow-right fa-xs"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-card__img">
+                        <span class="blog-card__date"><strong>05</strong>FEB</span>
+                        <img src="images/wwdc2.jpeg" alt="WWDC">
+                    </div>
+                    <div class="blog-card__body">
+                        <span class="blog-card__meta">Events &bull; 8 min read</span>
+                        <h3>WWDC Highlights</h3>
+                        <p>A full recap of the biggest announcements from this year's event.</p>
+                        <a href="#" class="blog-card__link">Read More <i class="fa-solid fa-arrow-right fa-xs"></i></a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features">
+        <div class="container">
+            <div class="features__grid">
+                <div class="feature">
+                    <i class="fa-solid fa-truck-fast feature__icon"></i>
+                    <div>
+                        <h4>Fast Delivery</h4>
+                        <p>Free on all orders over $50.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <i class="fa-brands fa-apple feature__icon"></i>
+                    <div>
+                        <h4>AppleCare+</h4>
+                        <p>Expert support included.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <i class="fa-solid fa-bag-shopping feature__icon"></i>
+                    <div>
+                        <h4>In-Store Pickup</h4>
+                        <p>Ready in under an hour.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <i class="fa-solid fa-headset feature__icon"></i>
+                    <div>
+                        <h4>Specialist Help</h4>
+                        <p>Shop with an Apple Specialist.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__newsletter">
+                    <h3>Stay Connected.</h3>
+                    <p>News, events, and exclusive offers — direct to your inbox.</p>
+                    <form class="footer__form">
+                        <input type="email" placeholder="Your email address" />
+                        <button type="button">Subscribe</button>
+                    </form>
+                </div>
+                <a href="#" class="footer__brand">
+                    <div class="logo__icon logo__icon--light"><i class="fa-brands fa-apple"></i></div>
+                    <span>iStore</span>
+                </a>
+            </div>
+
+            <div class="footer__cols">
+                <div class="footer__col">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="#">Mac</a></li>
+                        <li><a href="#">iPad</a></li>
+                        <li><a href="#">iPhone</a></li>
+                        <li><a href="#">Watch</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Apple Music</a></li>
+                        <li><a href="#">Apple TV+</a></li>
+                        <li><a href="#">Apple Fitness+</a></li>
+                        <li><a href="#">Apple News+</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>Account</h4>
+                    <ul>
+                        <li><a href="#">Manage Apple ID</a></li>
+                        <li><a href="#">My Orders</a></li>
+                        <li><a href="#">Wishlist</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">Newsroom</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">Ethics</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; 2026 iStore Inc. All rights reserved.</p>
+                <div class="footer__bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Legal</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
